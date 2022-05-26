@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="suWwtt" name="JuceAudio" projectType="guiapp" displaySplashScreen="1"
+              jucerFormatVersion="1" bundleIdentifier="com.sda.JuceAudio" cppLanguageStandard="17"
+              companyName="UWE" useAppConfig="0">
+  <MAINGROUP id="jzdGEt" name="JuceAudio">
+    <GROUP id="{48570F17-E5C2-62FF-4322-07FEF18BCFB5}" name="Source">
+      <GROUP id="{FF5742CC-A66C-6AC7-A32A-5991AAF2D804}" name="audio">
+        <FILE id="Tasgch" name="Audio.cpp" compile="1" resource="0" file="Source/audio/Audio.cpp"/>
+        <FILE id="Ak77N0" name="Audio.h" compile="0" resource="0" file="Source/audio/Audio.h"/>
+        <FILE id="jZgTJE" name="MySynth.cpp" compile="1" resource="0" file="Source/audio/MySynth.cpp"/>
+        <FILE id="xxLixD" name="MySynth.h" compile="0" resource="0" file="Source/audio/MySynth.h"/>
+      </GROUP>
+      <GROUP id="{2C881BE5-5BF7-EF6B-D22F-AC2503F0F8E8}" name="FX">
+        <FILE id="uTnYFe" name="Tremolo.cpp" compile="1" resource="0" file="Source/FX/Tremolo.cpp"/>
+        <FILE id="ko0uC0" name="Tremolo.h" compile="0" resource="0" file="Source/FX/Tremolo.h"/>
+        <FILE id="VvovcP" name="Vibrato.cpp" compile="1" resource="0" file="Source/FX/Vibrato.cpp"/>
+        <FILE id="hEKkvx" name="Vibrato.h" compile="0" resource="0" file="Source/FX/Vibrato.h"/>
+      </GROUP>
+      <GROUP id="{7CD38AAA-C8BE-4266-C9F3-D9110C532A9F}" name="ui">
+        <FILE id="bf2wSN" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/ui/MainComponent.cpp"/>
+        <FILE id="ugrSgl" name="MainComponent.h" compile="0" resource="0" file="Source/ui/MainComponent.h"/>
+        <FILE id="sAKPgA" name="MySynthGui.cpp" compile="1" resource="0" file="Source/ui/MySynthGui.cpp"/>
+        <FILE id="Oe7yEL" name="MySynthGui.h" compile="0" resource="0" file="Source/ui/MySynthGui.h"/>
+        <FILE id="zc1W1k" name="TremoloGui.cpp" compile="1" resource="0" file="Source/ui/TremoloGui.cpp"/>
+        <FILE id="FiXtMs" name="TremoloGui.h" compile="0" resource="0" file="Source/ui/TremoloGui.h"/>
+        <FILE id="EGXz6w" name="VibratoGui.cpp" compile="1" resource="0" file="Source/ui/VibratoGui.cpp"/>
+        <FILE id="XayOwi" name="VibratoGui.h" compile="0" resource="0" file="Source/ui/VibratoGui.h"/>
+      </GROUP>
+      <GROUP id="{D40BA4A8-9C64-742B-7F1D-1F386A3567F1}" name="Wavefrom">
+        <FILE id="d9vw7T" name="Oscillator.cpp" compile="1" resource="0" file="Source/Wavefrom/Oscillator.cpp"/>
+        <FILE id="U3zA9o" name="Oscillator.h" compile="0" resource="0" file="Source/Wavefrom/Oscillator.h"/>
+        <FILE id="vCCntU" name="Sawtooth.cpp" compile="1" resource="0" file="Source/Wavefrom/Sawtooth.cpp"/>
+        <FILE id="kMNeVa" name="Sawtooth.h" compile="0" resource="0" file="Source/Wavefrom/Sawtooth.h"/>
+        <FILE id="AWUxyS" name="SinOscillator.cpp" compile="1" resource="0"
+              file="Source/Wavefrom/SinOscillator.cpp"/>
+        <FILE id="P88MV9" name="SinOscillator.h" compile="0" resource="0" file="Source/Wavefrom/SinOscillator.h"/>
+        <FILE id="QOLIqt" name="SquareOscillator.cpp" compile="1" resource="0"
+              file="Source/Wavefrom/SquareOscillator.cpp"/>
+        <FILE id="ijUxEF" name="SquareOscillator.h" compile="0" resource="0"
+              file="Source/Wavefrom/SquareOscillator.h"/>
+        <FILE id="E6H0W8" name="Triangle.cpp" compile="1" resource="0" file="Source/Wavefrom/Triangle.cpp"/>
+        <FILE id="HSGnLR" name="Triangle.h" compile="0" resource="0" file="Source/Wavefrom/Triangle.h"/>
+      </GROUP>
+      <FILE id="YWMk1n" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="ebHsf7" name="resources.rc" compile="0" resource="1" file="Source/resources.rc"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JuceAudio"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JuceAudio"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="C:/Users/javic/Desktop/JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JuceAudio"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JuceAudio"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Development/Libs/JUCE6/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="C:/Users/javic/Desktop/JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
